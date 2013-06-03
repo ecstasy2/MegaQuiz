@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BCC2E80175CD0A4002242F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC2E7F175CD0A4002242F8 /* UIKit.framework */; };
+		2BCC2E82175CD0A4002242F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC2E81175CD0A4002242F8 /* Foundation.framework */; };
+		2BCC2E84175CD0A4002242F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC2E83175CD0A4002242F8 /* CoreGraphics.framework */; };
+		2BCC2E8A175CD0A4002242F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E88175CD0A4002242F8 /* InfoPlist.strings */; };
+		2BCC2E8C175CD0A4002242F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E8B175CD0A4002242F8 /* main.m */; };
+		2BCC2E90175CD0A4002242F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E8F175CD0A4002242F8 /* AppDelegate.m */; };
+		2BCC2E92175CD0A4002242F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E91175CD0A4002242F8 /* Default.png */; };
+		2BCC2E94175CD0A4002242F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E93175CD0A4002242F8 /* Default@2x.png */; };
+		2BCC2E96175CD0A4002242F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E95175CD0A4002242F8 /* Default-568h@2x.png */; };
+		2BCC2E99175CD0A4002242F8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E98175CD0A4002242F8 /* MasterViewController.m */; };
+		2BCC2E9C175CD0A4002242F8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E9B175CD0A4002242F8 /* DetailViewController.m */; };
+		2BCC2E9F175CD0A4002242F8 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E9D175CD0A4002242F8 /* MasterViewController.xib */; };
+		2BCC2EA2175CD0A4002242F8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2EA0175CD0A4002242F8 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BCC2E7C175CD0A4002242F8 /* MegaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC2E7F175CD0A4002242F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BCC2E81175CD0A4002242F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BCC2E83175CD0A4002242F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BCC2E87175CD0A4002242F8 /* MegaQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaQuiz-Info.plist"; sourceTree = "<group>"; };
+		2BCC2E89175CD0A4002242F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BCC2E8B175CD0A4002242F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BCC2E8D175CD0A4002242F8 /* MegaQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MegaQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		2BCC2E8E175CD0A4002242F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BCC2E8F175CD0A4002242F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BCC2E91175CD0A4002242F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2BCC2E93175CD0A4002242F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2BCC2E95175CD0A4002242F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2BCC2E97175CD0A4002242F8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2BCC2E98175CD0A4002242F8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2BCC2E9A175CD0A4002242F8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2BCC2E9B175CD0A4002242F8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2BCC2E9E175CD0A4002242F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		2BCC2EA1175CD0A4002242F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCC2E79175CD0A4002242F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC2E80175CD0A4002242F8 /* UIKit.framework in Frameworks */,
+				2BCC2E82175CD0A4002242F8 /* Foundation.framework in Frameworks */,
+				2BCC2E84175CD0A4002242F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BCC2E73175CD0A4002242F8 = {
+			isa = PBXGroup;
+			children = (
+				2BCC2E85175CD0A4002242F8 /* MegaQuiz */,
+				2BCC2E7E175CD0A4002242F8 /* Frameworks */,
+				2BCC2E7D175CD0A4002242F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCC2E7D175CD0A4002242F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2E7C175CD0A4002242F8 /* MegaQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCC2E7E175CD0A4002242F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2E7F175CD0A4002242F8 /* UIKit.framework */,
+				2BCC2E81175CD0A4002242F8 /* Foundation.framework */,
+				2BCC2E83175CD0A4002242F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BCC2E85175CD0A4002242F8 /* MegaQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2E8E175CD0A4002242F8 /* AppDelegate.h */,
+				2BCC2E8F175CD0A4002242F8 /* AppDelegate.m */,
+				2BCC2E97175CD0A4002242F8 /* MasterViewController.h */,
+				2BCC2E98175CD0A4002242F8 /* MasterViewController.m */,
+				2BCC2E9A175CD0A4002242F8 /* DetailViewController.h */,
+				2BCC2E9B175CD0A4002242F8 /* DetailViewController.m */,
+				2BCC2E9D175CD0A4002242F8 /* MasterViewController.xib */,
+				2BCC2EA0175CD0A4002242F8 /* DetailViewController.xib */,
+				2BCC2E86175CD0A4002242F8 /* Supporting Files */,
+			);
+			path = MegaQuiz;
+			sourceTree = "<group>";
+		};
+		2BCC2E86175CD0A4002242F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2E87175CD0A4002242F8 /* MegaQuiz-Info.plist */,
+				2BCC2E88175CD0A4002242F8 /* InfoPlist.strings */,
+				2BCC2E8B175CD0A4002242F8 /* main.m */,
+				2BCC2E8D175CD0A4002242F8 /* MegaQuiz-Prefix.pch */,
+				2BCC2E91175CD0A4002242F8 /* Default.png */,
+				2BCC2E93175CD0A4002242F8 /* Default@2x.png */,
+				2BCC2E95175CD0A4002242F8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCC2E7B175CD0A4002242F8 /* MegaQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCC2EA5175CD0A4002242F8 /* Build configuration list for PBXNativeTarget "MegaQuiz" */;
+			buildPhases = (
+				2BCC2E78175CD0A4002242F8 /* Sources */,
+				2BCC2E79175CD0A4002242F8 /* Frameworks */,
+				2BCC2E7A175CD0A4002242F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MegaQuiz;
+			productName = MegaQuiz;
+			productReference = 2BCC2E7C175CD0A4002242F8 /* MegaQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCC2E74175CD0A4002242F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Gurumades;
+			};
+			buildConfigurationList = 2BCC2E77175CD0A4002242F8 /* Build configuration list for PBXProject "MegaQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BCC2E73175CD0A4002242F8;
+			productRefGroup = 2BCC2E7D175CD0A4002242F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCC2E7B175CD0A4002242F8 /* MegaQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCC2E7A175CD0A4002242F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC2E8A175CD0A4002242F8 /* InfoPlist.strings in Resources */,
+				2BCC2E92175CD0A4002242F8 /* Default.png in Resources */,
+				2BCC2E94175CD0A4002242F8 /* Default@2x.png in Resources */,
+				2BCC2E96175CD0A4002242F8 /* Default-568h@2x.png in Resources */,
+				2BCC2E9F175CD0A4002242F8 /* MasterViewController.xib in Resources */,
+				2BCC2EA2175CD0A4002242F8 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCC2E78175CD0A4002242F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC2E8C175CD0A4002242F8 /* main.m in Sources */,
+				2BCC2E90175CD0A4002242F8 /* AppDelegate.m in Sources */,
+				2BCC2E99175CD0A4002242F8 /* MasterViewController.m in Sources */,
+				2BCC2E9C175CD0A4002242F8 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BCC2E88175CD0A4002242F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCC2E89175CD0A4002242F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BCC2E9D175CD0A4002242F8 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCC2E9E175CD0A4002242F8 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		2BCC2EA0175CD0A4002242F8 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCC2EA1175CD0A4002242F8 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BCC2EA3175CD0A4002242F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BCC2EA4175CD0A4002242F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCC2EA6175CD0A4002242F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MegaQuiz/MegaQuiz-Prefix.pch";
+				INFOPLIST_FILE = "MegaQuiz/MegaQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BCC2EA7175CD0A4002242F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MegaQuiz/MegaQuiz-Prefix.pch";
+				INFOPLIST_FILE = "MegaQuiz/MegaQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCC2E77175CD0A4002242F8 /* Build configuration list for PBXProject "MegaQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC2EA3175CD0A4002242F8 /* Debug */,
+				2BCC2EA4175CD0A4002242F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCC2EA5175CD0A4002242F8 /* Build configuration list for PBXNativeTarget "MegaQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC2EA6175CD0A4002242F8 /* Debug */,
+				2BCC2EA7175CD0A4002242F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCC2E74175CD0A4002242F8 /* Project object */;
+}
