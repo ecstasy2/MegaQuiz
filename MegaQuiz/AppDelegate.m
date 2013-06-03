@@ -7,21 +7,65 @@
 //
 
 #import "AppDelegate.h"
+#import "SBJson.h"
+#import "Question.h"
 
-#import "MasterViewController.h"
+#import "QuestionViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self loadQuestions];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
-    MasterViewController *masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
+    QuestionViewController *masterViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (void) loadQuestions{
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"questions" withExtension:@"json"];
+    NSString *str = [NSString stringWithContentsOfURL:url
+                                             encoding:NSUTF8StringEncoding error:NULL];
+    
+    SBJsonParser *parser = [[SBJsonParser alloc] init];
+    
+    NSArray *array = [parser objectWithString:str];
+    NSMutableArray *questions = [NSMutableArray arrayWithCapacity:array.count];
+    
+    for (NSDictionary *item in array) {
+        NSString *question = [item valueForKey:@"question"];
+        NSArray *answers = [item valueForKey:@"answers"];
+        int goodIdx = [[item valueForKey:@"good_ans"] intValue];
+        int rand = arc4random() % array.count;
+        Question *q = [[Question alloc] initWithQuestion:question
+                                                 answers:answers
+                                         goodAnswerIndex:goodIdx];
+        q.sort = rand;
+        
+        [questions addObject:q];
+    }
+    
+    [questions sortUsingComparator:^NSComparisonResult(Question *obj1, Question *obj2) {
+        if (obj1.sort == obj2.sort) {
+            return NSOrderedSame;
+        }
+        
+        if (obj1.sort > obj2.sort) {
+            return NSOrderedDescending;
+        }
+        
+        
+        return NSOrderedAscending;
+    }];
+    
+    self.questions = questions;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

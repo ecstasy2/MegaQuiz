@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BAEA82B175CDA8800F37113 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BAEA827175CDA8800F37113 /* bg.jpg */; };
+		2BAEA82C175CDA8800F37113 /* btn_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BAEA828175CDA8800F37113 /* btn_green.png */; };
+		2BAEA82D175CDA8800F37113 /* btn_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BAEA829175CDA8800F37113 /* btn_red.png */; };
+		2BAEA82E175CDA8800F37113 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BAEA82A175CDA8800F37113 /* logo.png */; };
+		2BAEA830175CDC6C00F37113 /* btn_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BAEA82F175CDC6C00F37113 /* btn_white.png */; };
+		2BBB43D0175CE659001F2E4A /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB43CE175CE659001F2E4A /* ResultViewController.m */; };
+		2BBB43D1175CE659001F2E4A /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB43CF175CE659001F2E4A /* ResultViewController.xib */; };
 		2BCC2E80175CD0A4002242F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC2E7F175CD0A4002242F8 /* UIKit.framework */; };
 		2BCC2E82175CD0A4002242F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC2E81175CD0A4002242F8 /* Foundation.framework */; };
 		2BCC2E84175CD0A4002242F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC2E83175CD0A4002242F8 /* CoreGraphics.framework */; };
@@ -16,13 +23,32 @@
 		2BCC2E92175CD0A4002242F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E91175CD0A4002242F8 /* Default.png */; };
 		2BCC2E94175CD0A4002242F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E93175CD0A4002242F8 /* Default@2x.png */; };
 		2BCC2E96175CD0A4002242F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E95175CD0A4002242F8 /* Default-568h@2x.png */; };
-		2BCC2E99175CD0A4002242F8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E98175CD0A4002242F8 /* MasterViewController.m */; };
-		2BCC2E9C175CD0A4002242F8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E9B175CD0A4002242F8 /* DetailViewController.m */; };
-		2BCC2E9F175CD0A4002242F8 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E9D175CD0A4002242F8 /* MasterViewController.xib */; };
-		2BCC2EA2175CD0A4002242F8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2EA0175CD0A4002242F8 /* DetailViewController.xib */; };
+		2BCC2E99175CD0A4002242F8 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2E98175CD0A4002242F8 /* QuestionViewController.m */; };
+		2BCC2E9F175CD0A4002242F8 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2E9D175CD0A4002242F8 /* QuestionViewController.xib */; };
+		2BCC2EAA175CD22B002242F8 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2EA9175CD22B002242F8 /* Question.m */; };
+		2BCC2EBB175CD428002242F8 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2EBA175CD428002242F8 /* questions.json */; };
+		2BCC2ED3175CD510002242F8 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC2EBD175CD510002242F8 /* .DS_Store */; };
+		2BCC2ED4175CD510002242F8 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2EC0175CD510002242F8 /* SBJsonParser.m */; };
+		2BCC2ED5175CD510002242F8 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2EC2175CD510002242F8 /* SBJsonStreamParser.m */; };
+		2BCC2ED6175CD510002242F8 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2EC4175CD510002242F8 /* SBJsonStreamParserAccumulator.m */; };
+		2BCC2ED7175CD510002242F8 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2EC6175CD510002242F8 /* SBJsonStreamParserAdapter.m */; };
+		2BCC2ED8175CD510002242F8 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2EC8175CD510002242F8 /* SBJsonStreamParserState.m */; };
+		2BCC2ED9175CD510002242F8 /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2ECA175CD510002242F8 /* SBJsonStreamTokeniser.m */; };
+		2BCC2EDA175CD510002242F8 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2ECC175CD510002242F8 /* SBJsonStreamWriter.m */; };
+		2BCC2EDB175CD510002242F8 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2ECE175CD510002242F8 /* SBJsonStreamWriterAccumulator.m */; };
+		2BCC2EDC175CD510002242F8 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2ED0175CD510002242F8 /* SBJsonStreamWriterState.m */; };
+		2BCC2EDD175CD510002242F8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2ED2175CD510002242F8 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BAEA827175CDA8800F37113 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		2BAEA828175CDA8800F37113 /* btn_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_green.png; sourceTree = "<group>"; };
+		2BAEA829175CDA8800F37113 /* btn_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_red.png; sourceTree = "<group>"; };
+		2BAEA82A175CDA8800F37113 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2BAEA82F175CDC6C00F37113 /* btn_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_white.png; sourceTree = "<group>"; };
+		2BBB43CD175CE659001F2E4A /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		2BBB43CE175CE659001F2E4A /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		2BBB43CF175CE659001F2E4A /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
 		2BCC2E7C175CD0A4002242F8 /* MegaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCC2E7F175CD0A4002242F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BCC2E81175CD0A4002242F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,12 +62,34 @@
 		2BCC2E91175CD0A4002242F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2BCC2E93175CD0A4002242F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2BCC2E95175CD0A4002242F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2BCC2E97175CD0A4002242F8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		2BCC2E98175CD0A4002242F8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		2BCC2E9A175CD0A4002242F8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		2BCC2E9B175CD0A4002242F8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		2BCC2E9E175CD0A4002242F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
-		2BCC2EA1175CD0A4002242F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		2BCC2E97175CD0A4002242F8 /* QuestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		2BCC2E98175CD0A4002242F8 /* QuestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		2BCC2E9E175CD0A4002242F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuestionViewController.xib; sourceTree = "<group>"; };
+		2BCC2EA8175CD22B002242F8 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		2BCC2EA9175CD22B002242F8 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		2BCC2EBA175CD428002242F8 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		2BCC2EBD175CD510002242F8 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		2BCC2EBE175CD510002242F8 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		2BCC2EBF175CD510002242F8 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		2BCC2EC0175CD510002242F8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		2BCC2EC1175CD510002242F8 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		2BCC2EC2175CD510002242F8 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		2BCC2EC3175CD510002242F8 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		2BCC2EC4175CD510002242F8 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		2BCC2EC5175CD510002242F8 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		2BCC2EC6175CD510002242F8 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		2BCC2EC7175CD510002242F8 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		2BCC2EC8175CD510002242F8 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		2BCC2EC9175CD510002242F8 /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		2BCC2ECA175CD510002242F8 /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		2BCC2ECB175CD510002242F8 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		2BCC2ECC175CD510002242F8 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		2BCC2ECD175CD510002242F8 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		2BCC2ECE175CD510002242F8 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		2BCC2ECF175CD510002242F8 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		2BCC2ED0175CD510002242F8 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		2BCC2ED1175CD510002242F8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		2BCC2ED2175CD510002242F8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +109,7 @@
 		2BCC2E73175CD0A4002242F8 = {
 			isa = PBXGroup;
 			children = (
+				2BCC2EBA175CD428002242F8 /* questions.json */,
 				2BCC2E85175CD0A4002242F8 /* MegaQuiz */,
 				2BCC2E7E175CD0A4002242F8 /* Frameworks */,
 				2BCC2E7D175CD0A4002242F8 /* Products */,
@@ -88,15 +137,18 @@
 		2BCC2E85175CD0A4002242F8 /* MegaQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				2BCC2EBC175CD503002242F8 /* JSON */,
 				2BCC2E8E175CD0A4002242F8 /* AppDelegate.h */,
 				2BCC2E8F175CD0A4002242F8 /* AppDelegate.m */,
-				2BCC2E97175CD0A4002242F8 /* MasterViewController.h */,
-				2BCC2E98175CD0A4002242F8 /* MasterViewController.m */,
-				2BCC2E9A175CD0A4002242F8 /* DetailViewController.h */,
-				2BCC2E9B175CD0A4002242F8 /* DetailViewController.m */,
-				2BCC2E9D175CD0A4002242F8 /* MasterViewController.xib */,
-				2BCC2EA0175CD0A4002242F8 /* DetailViewController.xib */,
+				2BCC2E97175CD0A4002242F8 /* QuestionViewController.h */,
+				2BCC2E98175CD0A4002242F8 /* QuestionViewController.m */,
+				2BCC2E9D175CD0A4002242F8 /* QuestionViewController.xib */,
 				2BCC2E86175CD0A4002242F8 /* Supporting Files */,
+				2BCC2EA8175CD22B002242F8 /* Question.h */,
+				2BCC2EA9175CD22B002242F8 /* Question.m */,
+				2BBB43CD175CE659001F2E4A /* ResultViewController.h */,
+				2BBB43CE175CE659001F2E4A /* ResultViewController.m */,
+				2BBB43CF175CE659001F2E4A /* ResultViewController.xib */,
 			);
 			path = MegaQuiz;
 			sourceTree = "<group>";
@@ -104,6 +156,11 @@
 		2BCC2E86175CD0A4002242F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BAEA82F175CDC6C00F37113 /* btn_white.png */,
+				2BAEA827175CDA8800F37113 /* bg.jpg */,
+				2BAEA828175CDA8800F37113 /* btn_green.png */,
+				2BAEA829175CDA8800F37113 /* btn_red.png */,
+				2BAEA82A175CDA8800F37113 /* logo.png */,
 				2BCC2E87175CD0A4002242F8 /* MegaQuiz-Info.plist */,
 				2BCC2E88175CD0A4002242F8 /* InfoPlist.strings */,
 				2BCC2E8B175CD0A4002242F8 /* main.m */,
@@ -113,6 +170,35 @@
 				2BCC2E95175CD0A4002242F8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BCC2EBC175CD503002242F8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2EBD175CD510002242F8 /* .DS_Store */,
+				2BCC2EBE175CD510002242F8 /* SBJson.h */,
+				2BCC2EBF175CD510002242F8 /* SBJsonParser.h */,
+				2BCC2EC0175CD510002242F8 /* SBJsonParser.m */,
+				2BCC2EC1175CD510002242F8 /* SBJsonStreamParser.h */,
+				2BCC2EC2175CD510002242F8 /* SBJsonStreamParser.m */,
+				2BCC2EC3175CD510002242F8 /* SBJsonStreamParserAccumulator.h */,
+				2BCC2EC4175CD510002242F8 /* SBJsonStreamParserAccumulator.m */,
+				2BCC2EC5175CD510002242F8 /* SBJsonStreamParserAdapter.h */,
+				2BCC2EC6175CD510002242F8 /* SBJsonStreamParserAdapter.m */,
+				2BCC2EC7175CD510002242F8 /* SBJsonStreamParserState.h */,
+				2BCC2EC8175CD510002242F8 /* SBJsonStreamParserState.m */,
+				2BCC2EC9175CD510002242F8 /* SBJsonStreamTokeniser.h */,
+				2BCC2ECA175CD510002242F8 /* SBJsonStreamTokeniser.m */,
+				2BCC2ECB175CD510002242F8 /* SBJsonStreamWriter.h */,
+				2BCC2ECC175CD510002242F8 /* SBJsonStreamWriter.m */,
+				2BCC2ECD175CD510002242F8 /* SBJsonStreamWriterAccumulator.h */,
+				2BCC2ECE175CD510002242F8 /* SBJsonStreamWriterAccumulator.m */,
+				2BCC2ECF175CD510002242F8 /* SBJsonStreamWriterState.h */,
+				2BCC2ED0175CD510002242F8 /* SBJsonStreamWriterState.m */,
+				2BCC2ED1175CD510002242F8 /* SBJsonWriter.h */,
+				2BCC2ED2175CD510002242F8 /* SBJsonWriter.m */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +256,15 @@
 				2BCC2E92175CD0A4002242F8 /* Default.png in Resources */,
 				2BCC2E94175CD0A4002242F8 /* Default@2x.png in Resources */,
 				2BCC2E96175CD0A4002242F8 /* Default-568h@2x.png in Resources */,
-				2BCC2E9F175CD0A4002242F8 /* MasterViewController.xib in Resources */,
-				2BCC2EA2175CD0A4002242F8 /* DetailViewController.xib in Resources */,
+				2BCC2E9F175CD0A4002242F8 /* QuestionViewController.xib in Resources */,
+				2BCC2EBB175CD428002242F8 /* questions.json in Resources */,
+				2BCC2ED3175CD510002242F8 /* .DS_Store in Resources */,
+				2BAEA82B175CDA8800F37113 /* bg.jpg in Resources */,
+				2BAEA82C175CDA8800F37113 /* btn_green.png in Resources */,
+				2BAEA82D175CDA8800F37113 /* btn_red.png in Resources */,
+				2BAEA82E175CDA8800F37113 /* logo.png in Resources */,
+				2BAEA830175CDC6C00F37113 /* btn_white.png in Resources */,
+				2BBB43D1175CE659001F2E4A /* ResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +277,19 @@
 			files = (
 				2BCC2E8C175CD0A4002242F8 /* main.m in Sources */,
 				2BCC2E90175CD0A4002242F8 /* AppDelegate.m in Sources */,
-				2BCC2E99175CD0A4002242F8 /* MasterViewController.m in Sources */,
-				2BCC2E9C175CD0A4002242F8 /* DetailViewController.m in Sources */,
+				2BCC2E99175CD0A4002242F8 /* QuestionViewController.m in Sources */,
+				2BCC2EAA175CD22B002242F8 /* Question.m in Sources */,
+				2BCC2ED4175CD510002242F8 /* SBJsonParser.m in Sources */,
+				2BCC2ED5175CD510002242F8 /* SBJsonStreamParser.m in Sources */,
+				2BCC2ED6175CD510002242F8 /* SBJsonStreamParserAccumulator.m in Sources */,
+				2BCC2ED7175CD510002242F8 /* SBJsonStreamParserAdapter.m in Sources */,
+				2BCC2ED8175CD510002242F8 /* SBJsonStreamParserState.m in Sources */,
+				2BCC2ED9175CD510002242F8 /* SBJsonStreamTokeniser.m in Sources */,
+				2BCC2EDA175CD510002242F8 /* SBJsonStreamWriter.m in Sources */,
+				2BCC2EDB175CD510002242F8 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				2BCC2EDC175CD510002242F8 /* SBJsonStreamWriterState.m in Sources */,
+				2BCC2EDD175CD510002242F8 /* SBJsonWriter.m in Sources */,
+				2BBB43D0175CE659001F2E4A /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,20 +304,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2BCC2E9D175CD0A4002242F8 /* MasterViewController.xib */ = {
+		2BCC2E9D175CD0A4002242F8 /* QuestionViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2BCC2E9E175CD0A4002242F8 /* en */,
 			);
-			name = MasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		2BCC2EA0175CD0A4002242F8 /* DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BCC2EA1175CD0A4002242F8 /* en */,
-			);
-			name = DetailViewController.xib;
+			name = QuestionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +412,7 @@
 				2BCC2EA7175CD0A4002242F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

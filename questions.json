@@ -1,0 +1,20 @@
+ [
+  {
+  "question":"Qui est Steve Wozniak ?",
+  "answers": ["Createur du PC","Createur de Oracle","Createur du Mac","Createur de l'iPhone"],
+  "good_ans": 2
+  },
+  {
+  "question":"Comment s'appelle le logiciel Windows sous Mac ?",
+  "answers": ["Bonjour","winBoot","iBoot","BootCamp"],
+  "good_ans": 3
+  },{
+  "question":"qu'elle est la taille d'une IPv6 ?",
+  "answers": ["256 octets","128 octets","56 bits","128 bits"],
+  "good_ans": 3
+  },{
+  "question":"Qui est le type de DD qui n'exite pas ?",
+  "answers": ["IDE","IDS","SATA","SCSI"],
+  "good_ans": 1
+  }
+  ]
